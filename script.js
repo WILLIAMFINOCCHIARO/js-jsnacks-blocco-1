@@ -62,7 +62,7 @@
 
 let due = 2;
 
-for(i = 1; i < 24 ; i++) {
+for(i = 1; i < 500 ; i++) {
   let potenza = due * due;
   console.log(potenza);
 }
