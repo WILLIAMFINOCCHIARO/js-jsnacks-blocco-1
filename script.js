@@ -15,3 +15,16 @@
 //  4. torniamo a scrivere in italiano
 //  5. proviamo ad immaginare le operazioni che vogliamo 
 //  far svolgere al nostro programma così come lo faremmo "a mano"
+
+
+// JSnack 1
+
+let somma = 0;
+
+for ( i = 0; i < 5; i++) {
+  const n = parseInt(prompt("inserisci un numero"));
+  somma +=n;
+}
+console.log(somma);
+
+while
