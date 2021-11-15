@@ -19,12 +19,21 @@
 
 // JSnack 1
 
+// let somma = 0;
+
+// for ( i = 0; i < 5; i++) {
+//   const n = parseInt(prompt("inserisci un numero"));
+//   somma +=n;
+// }
+
+
+let i = 0;
 let somma = 0;
 
-for ( i = 0; i < 5; i++) {
+while (i < 5) {
+  i++;
   const n = parseInt(prompt("inserisci un numero"));
   somma +=n;
 }
-console.log(somma);
 
-while
+console.log(somma);
