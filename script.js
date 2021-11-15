@@ -27,13 +27,32 @@
 // }
 
 
-let i = 0;
-let somma = 0;
+// let i = 0;
+// let somma = 0;
 
-while (i < 5) {
-  i++;
-  const n = parseInt(prompt("inserisci un numero"));
-  somma +=n;
+// while (i < 5) {
+//   i++;
+//   const n = parseInt(prompt("inserisci un numero"));
+//   somma +=n;
+// }
+
+// console.log(somma);
+
+
+// JSnack 2
+
+let parola1 = prompt("Inserisci una parola ");
+let parola2 = prompt("Inserisci unaparola ");
+
+
+if (  parola1.length === parola2.length  ) {
+  console.log(parola1, "e", parola2);
+    
+
+} else if ( parola1.length > parola2.length) {
+    console.log("la parola più lunga è :",parola1);
+} 
+else {
+  console.log("la parola più lunga è :",parola2);
+
 }
-
-console.log(somma);
