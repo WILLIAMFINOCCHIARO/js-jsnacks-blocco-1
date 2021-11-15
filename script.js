@@ -41,18 +41,28 @@
 
 // JSnack 2
 
-let parola1 = prompt("Inserisci una parola ");
-let parola2 = prompt("Inserisci unaparola ");
+// let parola1 = prompt("Inserisci una parola ");
+// let parola2 = prompt("Inserisci unaparola ");
 
 
-if (  parola1.length === parola2.length  ) {
-  console.log(parola1, "e", parola2);
+// if (  parola1.length === parola2.length  ) {
+//   console.log(parola1, "e", parola2);
     
 
-} else if ( parola1.length > parola2.length) {
-    console.log("la parola più lunga è :",parola1);
-} 
-else {
-  console.log("la parola più lunga è :",parola2);
+// } else if ( parola1.length > parola2.length) {
+//     console.log("la parola più lunga è :",parola1);
+// } 
+// else {
+//   console.log("la parola più lunga è :",parola2);
 
+// }
+
+
+// JSnack 3
+
+let due = 2;
+
+for(i = 1; i < 24 ; i++) {
+  let potenza = due * due;
+  console.log(potenza);
 }
