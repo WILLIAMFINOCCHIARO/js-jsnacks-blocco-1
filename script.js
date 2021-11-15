@@ -60,9 +60,10 @@
 
 // JSnack 3
 
-let numero = 2;
+let numero = 1;
+
  
 while (numero < 1000 ) {
   console.log(numero);
-  numero *= numero;
+  numero *= 2;
 }
