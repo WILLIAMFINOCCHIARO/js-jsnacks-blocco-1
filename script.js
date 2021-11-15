@@ -60,9 +60,9 @@
 
 // JSnack 3
 
-let due = 2;
-
-for(i = 1; i < 500 ; i++) {
-  let potenza = due * due;
-  console.log(potenza);
+let numero = 2;
+ 
+while (numero < 1000 ) {
+  console.log(numero);
+  numero *= numero;
 }
